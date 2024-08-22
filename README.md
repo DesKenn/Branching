@@ -1,6 +1,7 @@
 ## Git Cheat Sheet and Branching Practice
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### General Commands
 * 'git init' -initialize local git repo in current working directory
 * 'git add filename' - stage 'filename' for commit
@@ -18,9 +19,13 @@ stuff added here in newBranch.
 * 'git branch branchName' - create local branch 'branchName'
 * 'git checkout branchName' - switch to branch 'branchName'
 * 'git checkout -b branchName' - create and switch to branch 'branchName'
-=======
-Exmaples of common git commands. Also practice with dealing with branching and resolving merge conflicts.
->>>>>>> 269a6e5227844bfb8a34ecce816487fbbc5eda9a
+
 
 newBranch stuff.
 more stuff newBranch.
+erge conflicts.
+
+stuff added in main branch.
+More main stuff.
+
+
