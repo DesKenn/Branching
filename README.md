@@ -21,6 +21,26 @@
 * 'git checkout -b branchName' - create and switch to branch 'branchName'
 
 
+## Workflow:
+1. Pull latest remote main into local main
 
+	'git pull origin main'
 
+1. Branch from updated local main
+
+	'git checkout -b myBranch'
+
+1. Work in local branch, commiting frequently 
+1. When ready to merge, pull remote 'main' into local branch (must commit first)
+
+	'git pull origin main'
+
+	* Fix any merge conflicts, then commit
+
+1. Push to remote branch
+	
+	'git oush origin myBranch'
+
+1. Create pull request
+1. Merge pull request	
 
