@@ -6,8 +6,8 @@
 * 'git init' -initialize local git repo in current working directory
 * 'git add filename' - stage 'filename' for commit
 * 'git commit -m msg' - commit staged files into local repo
+* 'git clone url' --close remote repo 'url' to local directory
 
-stuff added here in newBranch.
 
 ### Information Commands
 * 'git status' - show status of local repo
@@ -21,11 +21,26 @@ stuff added here in newBranch.
 * 'git checkout -b branchName' - create and switch to branch 'branchName'
 
 
-newBranch stuff.
-more stuff newBranch.
-erge conflicts.
+## Workflow:
+1. Pull latest remote main into local main
 
-stuff added in main branch.
-More main stuff.
+	'git pull origin main'
 
+1. Branch from updated local main
+
+	'git checkout -b myBranch'
+
+1. Work in local branch, commiting frequently 
+1. When ready to merge, pull remote 'main' into local branch (must commit first)
+
+	'git pull origin main'
+
+	* Fix any merge conflicts, then commit
+
+1. Push to remote branch
+	
+	'git oush origin myBranch'
+
+1. Create pull request
+1. Merge pull request	
 
